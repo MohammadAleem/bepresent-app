@@ -1,0 +1,90 @@
+# AI Conversation Log — BePresent Clone
+
+**Project:** BePresent: Screen Time & Focus Control App  
+**Tool used:** Claude (Anthropic) — claude.ai  
+**Model:** Claude Sonnet 4.6  
+**Date:** May 2026
+
+---
+
+## Prompt 1
+
+**User:**
+Build a BePresent Clone — Screen Time & Focus Control. Control your screen time, block distracting apps, and earn rewards for staying focused — a gamified digital wellness app.
+
+Reference app: BePresent: Screen Time Control — a productivity app with 151M+ views.
+
+What to build: A mobile app that lets users set app usage limits, block distracting apps during focus sessions, and earn points/rewards for staying on task. Include a focus timer (Pomodoro-style), usage stats, and weekly reports.
+
+Key features:
+- App usage tracking dashboard
+- Focus session timer with app blocking
+- Daily/weekly screen time goals
+- Reward points for meeting goals
+- Usage history charts and insights
+
+Reference apps: BePresent, FocusFlight, Focus Friend, Pushscroll
+
+Scoring focus: Tracking accuracy, gamification design, and habit-forming UX.
+
+**AI Response:**
+Generated a full React single-file app (BePresent.jsx) with:
+- 5-tab mobile shell (Home, Focus, Stats, Rewards, Settings)
+- SVG ring charts, animated Pomodoro timer
+- XP/level system, achievements, daily challenges, leaderboard
+- App blocking toggles synced across tabs
+- Confetti on session completion
+- Design system: Syne + DM Sans fonts, #00E5A0 green accent, dark theme
+
+---
+
+## Prompt 2
+
+**User:**
+What this for publication [+ GitHub log instructions]
+
+**AI Response:**
+Explained the difference between the BePresent app (React artifact) and Claude Code CLI logs. Offered to write a README, take screenshots, write a Loom script, and a reflection — for a full submission package.
+
+---
+
+## Prompt 3
+
+**User:**
+First one
+
+**AI Response:**
+Generated a full README.md covering:
+- Feature breakdown (Home, Focus, Stats, Rewards, Settings)
+- Design system table (colors, fonts, tokens)
+- Getting started / tech stack / file structure
+- Roadmap and submission scoring criteria mapping
+
+---
+
+## Prompt 4
+
+**User:**
+Get Priority Review [submission requirements]. Help me to do these things from scratch to publish.
+
+**AI Response:**
+Generated complete submission package:
+- `/ai-logs/ai-conversation.md` (this file)
+- `reflection.md` (what was easy, hard, learned)
+- `loom-script.md` (full walkthrough script)
+- `screenshots-guide.md` (how to capture all 15 screens)
+- Step-by-step GitHub setup instructions
+
+---
+
+## Key Design Decisions Made with AI Assistance
+
+| Decision | Rationale |
+|----------|-----------|
+| Single-file React | Zero setup friction, easy to submit and demo |
+| Custom SVG rings | No chart library needed, full control over animation |
+| CSS-in-JS style tag | Portable, no build step required |
+| Syne + DM Sans fonts | Distinctive, techy, avoids generic AI aesthetics |
+| #00E5A0 green accent | High-contrast, wellness/growth association |
+| Confetti on completion | Dopamine reward loop for habit formation |
+| Synced block toggles | Home + Focus tabs share same state for consistency |
